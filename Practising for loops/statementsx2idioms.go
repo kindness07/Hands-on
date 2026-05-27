@@ -15,4 +15,10 @@ func main() {
 			fmt.Printf("%v is not equal to %v\n", x, y)
 		}
 	}
+
+	for i := 0; i < 100; i++ {
+		if x := rand.Intn(5); x == 3 {
+			fmt.Printf("iteration %v \t x is %v\n", i, x)
+		}
+	}
 }
