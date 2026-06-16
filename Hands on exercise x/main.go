@@ -3,7 +3,7 @@ package starting_code
 import (
 	"fmt"
 
-	"github.com/kindness07/Hands-on/blob/main/Hands%20on%20exercise%20x/dog"
+	"github.com/kindness07/Hands-on/Hands-on-exercise-x/dog"
 )
 
 type canine struct {
